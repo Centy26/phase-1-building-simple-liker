@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', () =>{
       if (heart.innerText ===EMPTY_HEART){
         mimicServerCall()
         .then(() => {
-          heart.innerText = FULL_HERAT;
+          heart.innerText = FULL_HEART;
           heart.classList.add('activated-heart')
         })
         .catch((error) => {
